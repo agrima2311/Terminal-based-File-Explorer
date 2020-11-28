@@ -1,0 +1,8 @@
+CSI Codes - Control Sequence Introducer
+
+\033[H - move cursor to top left of screen
+\033[J - clear screen from cursor to the end of the screen
+
+"%c[%d;%dH", 27, x, y - Move cursor to x,y position
+
+Color_Off="\[\033[0m\]"       # Text Reset
